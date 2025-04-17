@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.app {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: auto;
+  padding:100px 5px;
+  border: solid 2px #ccc;
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 255, 255, 0.486);
+  padding: 0 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  padding: 0 10px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  border: solid 1px ;
+}
